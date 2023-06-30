@@ -1,0 +1,41 @@
+.chat-reeva-container {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  &--reeva-item {
+    align-self: flex-start;
+    position: relative;
+    background-color: #e9e2fd;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    max-width: 80%;
+    margin-left: 5px;
+    min-width: 8%;
+    min-height: 20px;
+  }
+  &.disabledAnim {
+    animation-name: none !important;
+    animation-duration: 0s !important;
+    animation-fill-mode: none !important;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

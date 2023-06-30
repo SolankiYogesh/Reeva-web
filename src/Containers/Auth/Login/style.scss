@@ -1,0 +1,114 @@
+.login-container {
+  &--label {
+    color: #202020;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+  &--bottom-container {
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap to wrap the content in mobile view */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  &--forgot-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #47464a;
+    cursor: pointer;
+  }
+}
+.divider {
+  display: flex;
+  flex-wrap: wrap; /* Added flex-wrap to wrap the content in mobile view */
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #dcdbdd;
+  }
+
+  .divider-text {
+    margin: 0 10px;
+    color: #84818a;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: #84818a;
+  }
+}
+.dontacc-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #84818a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &__singUp {
+    background: linear-gradient(91.48deg, #8a63f4 0.29%, #b090ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    cursor: pointer;
+  }
+}
+#login-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 767px) {
+  /* Styles for mobile screens */
+  .login-container--label {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .login-container--bottom-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .login-container--forgot-text {
+    margin-top: 10px;
+  }
+  .divider {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .dontacc-text {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  #login-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for tablet screens */
+  .login-container--label {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .divider {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

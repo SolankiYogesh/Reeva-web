@@ -1,0 +1,48 @@
+.template--container {
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #8a63f4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-self: center;
+  width: 70%;
+  cursor: pointer;
+  border: 1px solid #f3f8f9;
+
+  &.focus {
+    border: 1px solid #8a63f4;
+  }
+
+  &--title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    background: linear-gradient(91.48deg, #8a63f4 0.29%, #b090ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  &--send {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .template--container{
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    &--title {
+      line-height: 14px;
+    }
+  }
+}

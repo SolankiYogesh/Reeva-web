@@ -1,0 +1,41 @@
+.chat-user-container {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row-reverse;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  &--user-item {
+    position: relative;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    max-width: 80%;
+    margin-right: 5px;
+    min-width: 8%;
+  }
+  &.disabledAnim {
+    animation-name: none !important;
+    animation-duration: 0s !important;
+    animation-fill-mode: none !important;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

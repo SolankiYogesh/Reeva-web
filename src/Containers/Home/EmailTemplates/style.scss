@@ -1,0 +1,90 @@
+.email-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &--inner {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    margin-top: 30px;
+  }
+  &--inner-scroll {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+  &--inner-template {
+    width: 100%;
+    // height: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  &--inner-title-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &.title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      text-transform: capitalize;
+      color: #121928;
+    }
+    &.pencil {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+  }
+
+  &--inner-input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #121928;
+    flex-wrap: wrap;
+    border: none;
+    flex: 1;
+    display: flex;
+    background: white;
+    outline: none;
+    margin-bottom: 50px;
+    resize: none;
+    &:hover {
+      border: none;
+      outline: none;
+    }
+  }
+}
+#send-template-btn {
+  align-self: flex-end;
+  position: absolute;
+  z-index: 1000;
+  bottom: 10px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .email-container {
+    &--inner {
+      display: flex;
+      width: 100%;
+      height: 90%;
+      margin-top: 15px;
+    }
+  }
+}

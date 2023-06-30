@@ -1,0 +1,102 @@
+.plan-tab-container {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #fefefc;
+  height: 95%;
+  border: 2px solid #8a63f4;
+  box-shadow: 0px 16px 42px rgba(112, 144, 176, 0.25);
+  border-radius: 15px;
+  justify-content: space-between;
+  width: 300px;
+  height: 360px;
+  &--title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #263238;
+  }
+  &--inner {
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  &--features-container {
+    margin-top: 10%;
+  }
+  &--features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 10px;
+    width: 90%;
+  }
+  &--features-img-container {
+    height: 20px;
+    width: 20px;
+    border-radius: 300px;
+    background: #f2edff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  &--features-img {
+    height: 60%;
+    width: 60%;
+  }
+  &--features-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9c9d95;
+  }
+}
+.plan-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -10px;
+}
+.plan-header-container {
+  position: relative;
+  width: fit-content;
+}
+@media only screen and (max-width: 1220px) {
+  .plan-tab-container {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #fefefc;
+    height: 95%;
+    border: 2px solid #8a63f4;
+    box-shadow: 0px 16px 42px rgba(112, 144, 176, 0.25);
+    border-radius: 15px;
+    justify-content: space-between;
+    width: 230px;
+    height: 360px;
+    &--inner {
+      padding-top: 20px;
+    }
+  }
+  .plan-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0px;
+  }
+}

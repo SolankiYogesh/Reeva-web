@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f59353c4.css",
+    "main.js": "/static/js/main.245a2326.js",
+    "static/media/Reeva.png": "/static/media/Reeva.01234c793b0a88d09762.png",
+    "static/media/p2.png": "/static/media/p2.20e46c6bb574450fb3ce.png",
+    "static/media/p1.png": "/static/media/p1.bd13ef1abcb2a4fe896f.png",
+    "static/media/p3.png": "/static/media/p3.7a8472837a2220b980b8.png",
+    "static/media/contract.png": "/static/media/contract.96e59a360f57890accf7.png",
+    "static/media/search.png": "/static/media/search.16ac44dba8c532ac6974.png",
+    "static/media/eye.png": "/static/media/eye.c19b9e3590579a3ec888.png",
+    "static/media/feedback_report.png": "/static/media/feedback_report.b20cb70121cbb9b9fa9e.png",
+    "static/media/template_send.png": "/static/media/template_send.bf1de7f259b11dd97b8c.png",
+    "static/media/newcontract.png": "/static/media/newcontract.948ec117cabf7a4ab28d.png",
+    "static/media/send.png": "/static/media/send.f3f02eec84b9998abf6c.png",
+    "static/media/email_contract.png": "/static/media/email_contract.bd0396e3e288681d73fc.png",
+    "static/media/hide-eye.png": "/static/media/hide-eye.54b3107d160578572bcc.png",
+    "static/media/plan_tab.png": "/static/media/plan_tab.3d8b3cbb593475eaf634.png",
+    "static/media/contacts.png": "/static/media/contacts.8c128a939d23da7ec122.png",
+    "static/media/buyer.png": "/static/media/buyer.f90cd81158908b6210ca.png",
+    "static/media/log_out.png": "/static/media/log_out.1e9ed40d4d9d21881887.png",
+    "static/media/seller.png": "/static/media/seller.b1325babed5112246475.png",
+    "index.html": "/index.html",
+    "main.f59353c4.css.map": "/static/css/main.f59353c4.css.map",
+    "main.245a2326.js.map": "/static/js/main.245a2326.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f59353c4.css",
+    "static/js/main.245a2326.js"
+  ]
+}

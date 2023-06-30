@@ -1,0 +1,71 @@
+.contact-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &--inner {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    margin-top: 30px;
+  }
+  &--inner-scroll {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  &--inner-scroll-inner {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+    padding-right: 5px;
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 5px;
+      
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: linear-gradient(91.48deg, #8a63f4 0.29%, #b090ff 100%);
+      -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    }
+  }
+  &--inner-template {
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    &.title {
+      color: #121928;
+      font-size: 25px;
+      font-family: Inter;
+      font-weight: 700;
+      letter-spacing: 0.32px;
+      text-transform: capitalize;
+    }
+  }
+  &--inner-template-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+#send-btn-contact {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+#contact-input {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

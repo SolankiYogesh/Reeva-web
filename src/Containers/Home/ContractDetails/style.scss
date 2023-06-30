@@ -1,0 +1,45 @@
+.contract-details-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &--inner-template {
+    width: 90%;
+    height: 90%;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &--inner-title-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &.title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      text-transform: capitalize;
+      color: #121928;
+    }
+  }
+  &--inner-frame {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: white;
+  }
+}
+#contract-send-btn {
+  align-self: flex-end;
+  z-index: 1000;
+  margin-right: 5%;
+}

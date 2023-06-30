@@ -1,0 +1,151 @@
+$primary: #11998e;
+$secondary: #38ef7d;
+$white: #fff;
+$gray: #9b9b9b;
+
+.footer {
+  background-color: #0b1632;
+  padding: 40px;
+
+  &__container {
+    display: flex;
+  }
+
+  &__tab {
+    width: 100%;
+
+    &:nth-child(2) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &:nth-child(3) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.tryOvelText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.3px;
+  color: #64626a;
+}
+
+.tncprivacy {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  flex: 1;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid $gray;
+    outline: 0;
+    font-size: 18px;
+    color: $white;
+    border-color: white;
+    padding: 7px 0;
+    background: transparent;
+
+    &::placeholder {
+      color: transparent;
+    }
+
+    &:placeholder-shown ~ .form__label {
+      font-size: 18px;
+      cursor: text;
+      top: 20px;
+    }
+  }
+
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+
+  .form__field:focus {
+    ~ .form__label {
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 15px;
+    }
+    padding-bottom: 6px;
+  }
+}
+
+.stone {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.39);
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  border-radius: 12px 12px 0px 0px;
+  bottom: -10px;
+  position: relative;
+}
+
+.form__container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.list-label {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.231818px;
+  color: #9f7cfb;
+}
+
+.list-item {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 20px;
+}

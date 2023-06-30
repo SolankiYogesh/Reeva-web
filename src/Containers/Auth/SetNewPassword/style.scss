@@ -1,0 +1,33 @@
+.setp-container {
+  &--label {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: #202020;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  &--bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  &--setp-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #47464a;
+    cursor: pointer;
+  }
+}
+#login-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#fgbBTN {
+  align-self: flex-end;
+  padding-left: 50px;
+  padding-right: 50px;
+}

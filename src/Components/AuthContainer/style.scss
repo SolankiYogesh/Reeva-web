@@ -1,0 +1,33 @@
+.auth-container {
+  height: calc(100vh - 91px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: auto;
+  column-gap: 20px;
+  &--con {
+    height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 420px;
+  }
+  &--inner-container {
+    background: #fbfcfc;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .auth-container {
+    padding: 0 40px;
+  }
+}

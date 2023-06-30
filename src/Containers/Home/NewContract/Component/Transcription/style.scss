@@ -1,0 +1,38 @@
+.tran-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  &--con {
+    width: 100%;
+    height: 80%;
+    overflow: scroll;
+  }
+  &--com {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &--create-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #8a63f4;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  &--time-text {
+    color: #263238;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #new-contract-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

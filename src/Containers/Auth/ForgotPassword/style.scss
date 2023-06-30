@@ -1,0 +1,36 @@
+.forgot-container {
+  &--label {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: #202020;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+#forgot-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#fgbBTN {
+  align-self: flex-end;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.dontacc-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #84818a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &__singUp {
+    background: linear-gradient(91.48deg, #8a63f4 0.29%, #b090ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    cursor: pointer;
+  }
+}

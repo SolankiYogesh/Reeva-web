@@ -1,0 +1,100 @@
+.draft-item-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0px 16px 42px 0px rgba(121, 121, 121, 0.05);
+  border: 1px solid #f3f8f9;
+
+  &:hover {
+    border: 1px solid #8a63f4;
+  }
+
+  &--top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+  &--top-add-time {
+    color: #02050f;
+    font-size: 11px;
+    font-family: Inter;
+    font-weight: 500;
+  }
+  &--top-add-con {
+    background: #eee9fa;
+    border-radius: 12px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-width: 30%;
+  }
+  &--top-add {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    background: linear-gradient(91.48deg, #8a63f4 0.29%, #b090ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  &--bottom {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &--bottom-label-con {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    &.imgdraft {
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    &.targetdraft {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #979797;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    &.valuedraft {
+      font-weight: 600;
+    }
+  }
+  &--bottom-iner {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+}
+#draft-send-btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.draft-item-container:hover #draft-send-btn {
+  display: flex;
+}
+#draft-send-img {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
